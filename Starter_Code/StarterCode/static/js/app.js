@@ -200,8 +200,30 @@ function gauge(id_number) {
             annotations: [
                 {
                     x: 0.98,
-                    y: 0.36,
+                    y: 0.37,
                     text: "<b>9-10</b>",
+                    showarrow: false,
+                    font: {
+                        family: 'serif',
+                        size: 14,
+                        color: 'black'
+                    }
+                },
+                {
+                    x: 0.93,
+                    y: 0.46,
+                    text: "<b>8-9</b>",
+                    showarrow: false,
+                    font: {
+                        family: 'serif',
+                        size: 14,
+                        color: 'black'
+                    }
+                },
+                {
+                    x: 0.84,
+                    y: 0.54,
+                    text: "<b>7-8</b>",
                     showarrow: false,
                     font: {
                         family: 'serif',
